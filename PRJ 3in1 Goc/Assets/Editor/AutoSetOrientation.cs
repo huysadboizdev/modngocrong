@@ -30,8 +30,6 @@ public class AutoSetOrientation : IPreprocessBuildWithReport
 
         // Android: Ẩn thanh status bar (pin, giờ) và tràn viền qua vùng tai thỏ / camera cutout
         PlayerSettings.Android.renderOutsideSafeArea = true;
-        PlayerSettings.Android.startInFullscreen = true;
-        PlayerSettings.Android.systemBarsBehavior = AndroidSystemBarsBehavior.ImmersiveSticky;
         PlayerSettings.Android.maxAspectRatio = 2.5f;
 
 #if UNITY_IOS
