@@ -1,0 +1,500 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.8f1 (5cb7df797b7d) revision 6076383'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Admin" at "2026-08-15T14:46:15.8654734Z"
+OS: 'Windows 10  (10.0.19045) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16110 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-08-15T14:46:15Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.5.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW0
+-projectPath
+C:/Users/Admin/Downloads/PRJ 3in1 Goc/PRJ 3in1 Goc
+-logFile
+Logs/AssetImportWorkerHW0.log
+-srvPort
+55285
+-parentPid
+33920
+-analyticsCloudUserId
+anonymous
+-analyticsCloudProjectId
+4d8c555c-3d8f-413d-a019-168b02a3203e
+-analyticsLocalProjectId
+6ab39228f62351141adff066d13c3d74
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+891bed704bbd8b21d591e0bfb6189f0c9541c4a4
+-cbmMachineId
+W2Rk1ZMub4gst3hcW6h4jxYs7Kg=
+-licensingIpc
+LicenseClient-Admin
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: C:/Users/Admin/Downloads/PRJ 3in1 Goc/PRJ 3in1 Goc
+C:/Users/Admin/Downloads/PRJ 3in1 Goc/PRJ 3in1 Goc
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [14672]  Target information:
+
+Player connection [14672]  * "[IP] 172.23.208.1 [Port] 0 [Flags] 2 [Guid] 3076420661 [EditorId] 3076420661 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0QSC19T) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [14672]  * "[IP] 192.168.19.103 [Port] 0 [Flags] 2 [Guid] 3076420661 [EditorId] 3076420661 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0QSC19T) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [14672] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [14672] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.5.8f1 (5cb7df797b7d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Admin/Downloads/PRJ 3in1 Goc/PRJ 3in1 Goc/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:          NVIDIA
+    VRAM:            3964 MB
+    App VRAM Budget: 3369 MB
+    Driver:          32.0.15.8132
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56852
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Admin"
+[Licensing::IpcConnector] LicenseClient-Admin channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Admin-6000.5.8" at "2026-08-15T14:46:16.8173436Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 9304, path: "C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              3ea8e99f7a5a46babfdd9e03588d45f4
+  Correlation Id:          bf07edc1f36fb5172e382bd971e6567c
+  External correlation Id: 3429026285617760993
+  Machine Id:              W2Rk1ZMub4gst3hcW6h4jxYs7Kg=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Admin-6000.5.8" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Admin-6000.5.8-notifications" at "2026-08-15T14:46:16.8247841Z"
+[Licensing::Module] Licensing Background thread has ended after 0.96s
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18968348210301-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.031941 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.502 seconds
+Domain Reload Profiling: 1167ms
+	BeginReloadAssembly (158ms)
+	RebuildCommonClasses (6ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (109ms)
+	LoadAllAssembliesAndSetupDomain (366ms)
+		LoadAssemblies (155ms)
+		AnalyzeDomain (280ms)
+			TypeCache.Refresh (279ms)
+				TypeCache.ScanAssembly (260ms)
+	FinalizeReload (502ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (97ms)
+			ProcessInitializeOnLoadMethodAttributes (229ms)
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195CA7FC350 doesn't match image C:\Users\Admin\Downloads\PRJ 3in1 Goc\PRJ 3in1 Goc\Assets\OPS\Obfuscator\Editor\Plugins\OPS.Obfuscator.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+🔄 Setting default orientation to Landscape (Android & iOS)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AutoSetOrientation:SetOrientationSettings () (at Assets/Editor/AutoSetOrientation.cs:35)
+AutoSetOrientation:.cctor () (at Assets/Editor/AutoSetOrientation.cs:11)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>)
+
+(Filename: Assets/Editor/AutoSetOrientation.cs Line: 35)
+
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.563 seconds
+Domain Reload Profiling: 1321ms
+	BeginReloadAssembly (356ms)
+		DisableScriptedObjects (9ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (311ms)
+		LoadAssemblies (398ms)
+		AnalyzeDomain (59ms)
+			TypeCache.Refresh (44ms)
+				TypeCache.ScanAssembly (32ms)
+			BuildScriptInfoCaches (12ms)
+	FinalizeReload (564ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			BeforeProcessingInitializeOnLoad (117ms)
+			ProcessInitializeOnLoadAttributes (106ms)
+			ProcessInitializeOnLoadMethodAttributes (90ms)
+			AfterProcessingInitializeOnLoad (7ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Curl error 3: URL rejected: Malformed input to a URL function
+Unloading 1073 unused Assets / (61.4 KB). Loaded Objects now: 1818.
+Memory consumption went from 183.9 MB to 183.8 MB.
+Total: 5.433700 ms (FindLiveObjects: 0.187600 ms CreateObjectMapping: 0.290200 ms MarkObjects: 4.405700 ms  DeleteObjects: 0.547300 ms)
+
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Curl error 35: Recv failure: Connection was reset
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 1818.
+Memory consumption went from 182.4 MB to 182.4 MB.
+Total: 4.988900 ms (FindLiveObjects: 0.150100 ms CreateObjectMapping: 0.105500 ms MarkObjects: 4.724500 ms  DeleteObjects: 0.007300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-15T14:46:20.9569711Z
+  Time since last request: 222644.35179879999487 seconds.
+  importAddress: GUID: ec0fed1d0cd52934b93f2290187c9366 - Path: Assets/Scripts/ServerListScreen.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ec0fed1d0cd52934b93f2290187c9366 - Path: Assets/Scripts/ServerListScreen.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ec0fed1d0cd52934b93f2290187c9366' -> (Import Result ID: '292b95d3861d2fafbe3cdfd145000ff7') in 0.115 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6f4a1ee56c4d4d7082cf08798163dba3 DependenciesID=54cc1435e18f66fbe8db3adb637c01b8 StaticDependenciesID=4dcc50e4dc407e15d7554e2f64ea2dc2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-15T14:46:21.0754744Z
+  Time since last request: 0.0010301 seconds.
+  importAddress: GUID: 6077c9a6298fd04438204c4614fec03e - Path: Assets/OPS/Obfuscator/Log/StandaloneWindows64.txt - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 6077c9a6298fd04438204c4614fec03e - Path: Assets/OPS/Obfuscator/Log/StandaloneWindows64.txt - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 6077c9a6298fd04438204c4614fec03e' -> (Import Result ID: 'f50075d00c42fcc264945a29ce8154da') in 0.029 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=048774d40e29b15a5e0aebda738e144c DependenciesID=b0c7172448447b8b6dd055d9ee8bb64d StaticDependenciesID=dc14584883c67f7fc376ccb45167f5e9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0 B). Loaded Objects now: 1820.
+Memory consumption went from 183.3 MB to 183.3 MB.
+Total: 6.330200 ms (FindLiveObjects: 0.124200 ms CreateObjectMapping: 0.100900 ms MarkObjects: 6.076000 ms  DeleteObjects: 0.028000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-15T14:49:47.8181422Z
+  Time since last request: 206.71329299999999 seconds.
+  importAddress: GUID: 6077c9a6298fd04438204c4614fec03e - Path: Assets/OPS/Obfuscator/Log/StandaloneWindows64.txt - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 6077c9a6298fd04438204c4614fec03e - Path: Assets/OPS/Obfuscator/Log/StandaloneWindows64.txt - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 6077c9a6298fd04438204c4614fec03e' -> (Import Result ID: '00000000000000000000000000000000') in 0.008 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/ops/obfuscator/log/standalonewindows64.txt in SourceAssetDB has modification time of '2026-08-15T14:47:03.7219315Z' while content on disk has modification time of '2026-08-15T14:49:46.8600735Z'
+  ERROR: Build asset version error: assets/ops/obfuscator/log/standalonewindows64.txt in SourceAssetDB has modification time of '2026-08-15T14:47:03.7219315Z' while content on disk has modification time of '2026-08-15T14:49:46.8600735Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 1820.
+Memory consumption went from 183.4 MB to 183.4 MB.
+Total: 8.881700 ms (FindLiveObjects: 0.186900 ms CreateObjectMapping: 0.181900 ms MarkObjects: 8.499000 ms  DeleteObjects: 0.011600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-15T14:51:36.1714123Z
+  Time since last request: 108.34394260000001 seconds.
+  importAddress: GUID: 6077c9a6298fd04438204c4614fec03e - Path: Assets/OPS/Obfuscator/Log/StandaloneWindows64.txt - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 6077c9a6298fd04438204c4614fec03e - Path: Assets/OPS/Obfuscator/Log/StandaloneWindows64.txt - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 6077c9a6298fd04438204c4614fec03e' -> (Import Result ID: 'fe58078362d8457ac9dc01b7bdb0fa82') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4b6522c4510a09ac41e3fe4838121bdb DependenciesID=ca965331ebf31207abe09d6e34894150 StaticDependenciesID=4116ee13b004362ce5f3421aa3f592de 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 1820.
+Memory consumption went from 183.4 MB to 183.4 MB.
+Total: 4.713900 ms (FindLiveObjects: 0.158200 ms CreateObjectMapping: 0.091200 ms MarkObjects: 4.455400 ms  DeleteObjects: 0.007100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 1820.
+Memory consumption went from 183.5 MB to 183.5 MB.
+Total: 5.227800 ms (FindLiveObjects: 0.161200 ms CreateObjectMapping: 0.112800 ms MarkObjects: 4.946000 ms  DeleteObjects: 0.006700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195CAEF9000 doesn't match image C:\Users\Admin\Downloads\PRJ 3in1 Goc\PRJ 3in1 Goc\Assets\OPS\Obfuscator\Editor\Plugins\OPS.Obfuscator.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+🔄 Setting default orientation to Landscape (Android & iOS)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AutoSetOrientation:SetOrientationSettings () (at Assets/Editor/AutoSetOrientation.cs:35)
+AutoSetOrientation:.cctor () (at Assets/Editor/AutoSetOrientation.cs:11)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>)
+
+(Filename: Assets/Editor/AutoSetOrientation.cs Line: 35)
+
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.576 seconds
+Domain Reload Profiling: 1401ms
+	BeginReloadAssembly (359ms)
+		DisableScriptedObjects (14ms)
+		CreateAndSetChildDomain (84ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (334ms)
+		LoadAssemblies (336ms)
+		AnalyzeDomain (49ms)
+			TypeCache.Refresh (25ms)
+				TypeCache.ScanAssembly (17ms)
+			BuildScriptInfoCaches (18ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (577ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			BeforeProcessingInitializeOnLoad (128ms)
+			ProcessInitializeOnLoadAttributes (97ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
+			AfterProcessingInitializeOnLoad (6ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1071 unused Assets / (244.4 KB). Loaded Objects now: 1820.
+Memory consumption went from 184.4 MB to 184.2 MB.
+Total: 4.893500 ms (FindLiveObjects: 0.176500 ms CreateObjectMapping: 0.215700 ms MarkObjects: 4.191600 ms  DeleteObjects: 0.308700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 1820.
+Memory consumption went from 184.0 MB to 184.0 MB.
+Total: 4.803700 ms (FindLiveObjects: 0.182800 ms CreateObjectMapping: 0.105200 ms MarkObjects: 4.507200 ms  DeleteObjects: 0.007100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 1820.
+Memory consumption went from 184.1 MB to 184.1 MB.
+Total: 4.474500 ms (FindLiveObjects: 0.120900 ms CreateObjectMapping: 0.089100 ms MarkObjects: 4.254700 ms  DeleteObjects: 0.008300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195C9DB8380 doesn't match image C:\Users\Admin\Downloads\PRJ 3in1 Goc\PRJ 3in1 Goc\Assets\OPS\Obfuscator\Editor\Plugins\OPS.Obfuscator.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+🔄 Setting default orientation to Landscape (Android & iOS)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AutoSetOrientation:SetOrientationSettings () (at Assets/Editor/AutoSetOrientation.cs:35)
+AutoSetOrientation:.cctor () (at Assets/Editor/AutoSetOrientation.cs:11)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.ReadOnlySpan`1<intptr>)
+
+(Filename: Assets/Editor/AutoSetOrientation.cs Line: 35)
+
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.557 seconds
+Domain Reload Profiling: 1223ms
+	BeginReloadAssembly (244ms)
+		DisableScriptedObjects (19ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (9ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (343ms)
+		LoadAssemblies (305ms)
+		AnalyzeDomain (52ms)
+			TypeCache.Refresh (12ms)
+			BuildScriptInfoCaches (35ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (558ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			BeforeProcessingInitializeOnLoad (135ms)
+			ProcessInitializeOnLoadAttributes (98ms)
+			ProcessInitializeOnLoadMethodAttributes (88ms)
+			AfterProcessingInitializeOnLoad (6ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1071 unused Assets / (239.6 KB). Loaded Objects now: 1820.
+Memory consumption went from 185.5 MB to 185.2 MB.
+Total: 4.992300 ms (FindLiveObjects: 0.184600 ms CreateObjectMapping: 0.209800 ms MarkObjects: 4.222600 ms  DeleteObjects: 0.373100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
+Editor requested this worker to shutdown with reason: Editor is closing down
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

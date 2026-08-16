@@ -1,0 +1,16 @@
+
+=== Fri Aug 14 20:25:31 2026
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were added:
+  com.unity.modules.adaptiveperformance@1.0.0
+  com.unity.modules.physicscore2d@1.0.0
+  com.unity.modules.vectorgraphics@1.0.0
+The following packages were updated:
+  com.unity.ide.visualstudio from version 2.0.23 to 2.0.26
+  com.unity.multiplayer.center from version 1.0.0 to 1.0.1
+  com.unity.ugui from version 2.0.0 to 2.5.0
+The following packages were removed:
+  com.unity.modules.vr@1.0.0
