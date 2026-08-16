@@ -69,8 +69,8 @@ MonoBehaviour:
     y: 0
     width: 100
     height: 724.8
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -301,7 +301,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 43.2
+    y: 0
     width: 1536
     height: 36
   m_SerializedDataModeController:
@@ -726,8 +726,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1436
-    y: 79.200005
+    x: 1437
+    y: 24
     width: 99
     height: 698.8
   m_SerializedDataModeController:
@@ -781,7 +781,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 79.200005
+    y: 24
     width: 350.2
     height: 474
   m_SerializedDataModeController:
@@ -857,8 +857,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 351.2
-    y: 79.200005
+    x: 352.2
+    y: 24
     width: 1082.8
     height: 474
   m_SerializedDataModeController:
@@ -1455,7 +1455,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 579.2
+    y: 524
     width: 1435
     height: 198.79999
   m_SerializedDataModeController:

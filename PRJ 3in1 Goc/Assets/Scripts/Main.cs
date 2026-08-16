@@ -108,6 +108,7 @@ public class Main : MonoBehaviour
 		{
 			Screen.fullScreen = true;
 			GameCanvas.isTouch = true;
+			HideSystemUI();
 		}
 
 		try
@@ -141,6 +142,14 @@ public class Main : MonoBehaviour
 	private void SetInit()
 	{
 		base.enabled = true;
+	}
+
+	private void OnApplicationFocus(bool hasFocus)
+	{
+		if (hasFocus && (Application.platform == RuntimePlatform.Android || Application.platform == RuntimePlatform.IPhonePlayer))
+		{
+			HideSystemUI();
+		}
 	}
 
 	private void OnHideUnity(bool isGameShown)
@@ -206,23 +215,14 @@ public class Main : MonoBehaviour
 			if (isPC)
 			{
 				IMEI = SystemInfo.deviceUniqueIdentifier;
+				Screen.fullScreen = false;
+				typeClient = 4;
 			}
 			else
 			{
 				IMEI = GetMacAddress();
-			}
-			isPC = true;
-			if (isPC && !isIPhone)
-			{
-				Screen.fullScreen = false;
-			}
-			if (isIPhone && !isPC)
-			{
 				Screen.fullScreen = true;
-			}
-			if (isPC)
-			{
-				typeClient = 4;
+				HideSystemUI();
 			}
 			if (isWindowsPhone)
 			{
@@ -470,5 +470,34 @@ public class Main : MonoBehaviour
 			return true;
 		}
 		return false;
+	}
+
+	public static void HideSystemUI()
+	{
+		Screen.fullScreen = true;
+#if UNITY_ANDROID && !UNITY_EDITOR
+		try
+		{
+			using (AndroidJavaClass unityPlayer = new AndroidJavaClass("com.unity3d.player.UnityPlayer"))
+			using (AndroidJavaObject activity = unityPlayer.GetStatic<AndroidJavaObject>("currentActivity"))
+			{
+				activity.Call("runOnUiThread", new AndroidJavaRunnable(() =>
+				{
+					using (AndroidJavaObject window = activity.Call<AndroidJavaObject>("getWindow"))
+					using (AndroidJavaObject decorView = window.Call<AndroidJavaObject>("getDecorView"))
+					{
+						// SYSTEM_UI_FLAG_LAYOUT_STABLE (256) | SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION (512) |
+						// SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN (1024) | SYSTEM_UI_FLAG_HIDE_NAVIGATION (2) |
+						// SYSTEM_UI_FLAG_FULLSCREEN (4) | SYSTEM_UI_FLAG_IMMERSIVE_STICKY (4096)
+						decorView.Call("setSystemUiVisibility", 5894);
+					}
+				}));
+			}
+		}
+		catch (System.Exception ex)
+		{
+			Debug.LogWarning("HideSystemUI error: " + ex.Message);
+		}
+#endif
 	}
 }
