@@ -107,6 +107,8 @@ public class Main : MonoBehaviour
 		else if (isIPhone)
 		{
 			Screen.fullScreen = true;
+			Screen.fullScreenMode = FullScreenMode.FullScreenWindow;
+			Application.targetFrameRate = 60;
 			GameCanvas.isTouch = true;
 			HideSystemUI();
 		}
@@ -312,6 +314,7 @@ public class Main : MonoBehaviour
 			}
 			up++;
 			setsizeChange();
+			checkScreenSize();
 			updateCount++;
 			ipKeyboard.update();
 			if (GameMidlet.gameCanvas != null)
@@ -328,6 +331,38 @@ public class Main : MonoBehaviour
 			if (!isPC)
 			{
 				_ = 1 / a;
+			}
+		}
+	}
+
+	private void checkScreenSize()
+	{
+		if (ScaleGUI.WIDTH != (float)Screen.width || ScaleGUI.HEIGHT != (float)Screen.height)
+		{
+			ScaleGUI.initScaleGUI();
+			if (MotherCanvas.instance != null)
+			{
+				MotherCanvas.instance.checkZoomLevel((int)ScaleGUI.WIDTH, (int)ScaleGUI.HEIGHT);
+				if (GameCanvas.instance != null)
+				{
+					GameCanvas.w = MotherCanvas.instance.getWidthz();
+					GameCanvas.h = MotherCanvas.instance.getHeightz();
+					GameCanvas.hw = GameCanvas.w / 2;
+					GameCanvas.hh = GameCanvas.h / 2;
+					GameCanvas.wd3 = GameCanvas.w / 3;
+					GameCanvas.hd3 = GameCanvas.h / 3;
+					GameCanvas.w2d3 = 2 * GameCanvas.w / 3;
+					GameCanvas.h2d3 = 2 * GameCanvas.h / 3;
+					GameCanvas.w3d4 = 3 * GameCanvas.w / 4;
+					GameCanvas.h3d4 = 3 * GameCanvas.h / 4;
+					GameCanvas.wd6 = GameCanvas.w / 6;
+					GameCanvas.hd6 = GameCanvas.h / 6;
+					GameScr.d = ((GameCanvas.w <= GameCanvas.h) ? GameCanvas.h : GameCanvas.w) + 20;
+					if (GameCanvas.currentScreen != null)
+					{
+						GameCanvas.currentScreen.switchToMe();
+					}
+				}
 			}
 		}
 	}
@@ -430,6 +465,10 @@ public class Main : MonoBehaviour
 		else
 		{
 			isResume = true;
+			if (Application.platform == RuntimePlatform.Android || Application.platform == RuntimePlatform.IPhonePlayer)
+			{
+				HideSystemUI();
+			}
 		}
 		if (TouchScreenKeyboard.visible)
 		{
@@ -475,6 +514,7 @@ public class Main : MonoBehaviour
 	public static void HideSystemUI()
 	{
 		Screen.fullScreen = true;
+		Screen.fullScreenMode = FullScreenMode.FullScreenWindow;
 #if UNITY_ANDROID && !UNITY_EDITOR
 		try
 		{
@@ -484,12 +524,61 @@ public class Main : MonoBehaviour
 				activity.Call("runOnUiThread", new AndroidJavaRunnable(() =>
 				{
 					using (AndroidJavaObject window = activity.Call<AndroidJavaObject>("getWindow"))
-					using (AndroidJavaObject decorView = window.Call<AndroidJavaObject>("getDecorView"))
 					{
-						// SYSTEM_UI_FLAG_LAYOUT_STABLE (256) | SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION (512) |
-						// SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN (1024) | SYSTEM_UI_FLAG_HIDE_NAVIGATION (2) |
-						// SYSTEM_UI_FLAG_FULLSCREEN (4) | SYSTEM_UI_FLAG_IMMERSIVE_STICKY (4096)
-						decorView.Call("setSystemUiVisibility", 5894);
+						try
+						{
+							using (AndroidJavaClass buildVersion = new AndroidJavaClass("android.os.Build$VERSION"))
+							{
+								int sdkInt = buildVersion.GetStatic<int>("SDK_INT");
+								if (sdkInt >= 28)
+								{
+									using (AndroidJavaObject layoutParams = window.Call<AndroidJavaObject>("getAttributes"))
+									{
+										// LAYOUT_IN_DISPLAY_CUTOUT_MODE_SHORT_EDGES = 1
+										layoutParams.Set("layoutInDisplayCutoutMode", 1);
+										window.Call("setAttributes", layoutParams);
+									}
+								}
+
+								if (sdkInt >= 30)
+								{
+									using (AndroidJavaObject insetsController = window.Call<AndroidJavaObject>("getInsetsController"))
+									{
+										if (insetsController != null)
+										{
+											// WindowInsets.Type.statusBars() (1) | navigationBars() (2) | captionBar() (4) = 7
+											insetsController.Call("hide", 7);
+											// WindowInsetsController.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE = 2
+											insetsController.Call("setSystemBarsBehavior", 2);
+										}
+									}
+								}
+							}
+						}
+						catch (System.Exception exCutout)
+						{
+							Debug.LogWarning("Cutout/Insets mode error: " + exCutout.Message);
+						}
+
+						try
+						{
+							window.Call("clearFlags", 2048); // FLAG_FORCE_NOT_FULLSCREEN
+							// FLAG_FULLSCREEN (1024) | FLAG_LAYOUT_NO_LIMITS (512) | FLAG_LAYOUT_IN_SCREEN (256)
+							window.Call("addFlags", 1024 | 512 | 256);
+						}
+						catch (System.Exception) {}
+
+						try
+						{
+							using (AndroidJavaObject decorView = window.Call<AndroidJavaObject>("getDecorView"))
+							{
+								// SYSTEM_UI_FLAG_LAYOUT_STABLE (256) | SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION (512) |
+								// SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN (1024) | SYSTEM_UI_FLAG_HIDE_NAVIGATION (2) |
+								// SYSTEM_UI_FLAG_FULLSCREEN (4) | SYSTEM_UI_FLAG_IMMERSIVE_STICKY (4096)
+								decorView.Call("setSystemUiVisibility", 5894);
+							}
+						}
+						catch (System.Exception) {}
 					}
 				}));
 			}

@@ -185,17 +185,23 @@
 [Info][OPS.OBF][OnAnalyse_Assemblies] Process component String Reflection and Coroutine - Compatibility
 [Info][OPS.OBF][OnAnalyse_Assemblies] [Assembly-CSharp] Find Strings in Methods...
 [Info][OPS.OBF][OnAnalyse_Assemblies] [Assembly-CSharp] Skip Member names based on found Strings...
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void Char::hide()] Because the method might be a method called through reflection.
 [Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void Command::setType()] Because the method might be a method called through reflection.
 [Info][OPS.OBF][OnAnalyse_Assemblies] Skip Type and Namespace [[Assembly-CSharp] CoroutineRunner] Because the type might be a type called through reflection.
 [Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void ImgByName::checkDelHash(MyHashTable,System.Int32,System.Boolean)] Because the method might be a method called through reflection.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void Info::hide()] Because the method might be a method called through reflection.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void InfoDlg::hide()] Because the method might be a method called through reflection.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void InfoMe::hide()] Because the method might be a method called through reflection.
 [Info][OPS.OBF][OnAnalyse_Assemblies] Skip Type and Namespace [[Assembly-CSharp] Item] Because the type might be a type called through reflection.
 [Info][OPS.OBF][OnAnalyse_Assemblies] Skip Type and Namespace [[Assembly-CSharp] Main] Because the type might be a type called through reflection.
 [Info][OPS.OBF][OnAnalyse_Assemblies] Skip Type and Namespace [[Assembly-CSharp] Menu] Because the type might be a type called through reflection.
 [Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Boolean ModFunc::Chat(System.String)] Because the method might be a method called through reflection.
 [Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void Panel::setType(System.Int32)] Because the method might be a method called through reflection.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void Panel::hide()] Because the method might be a method called through reflection.
 [Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void Service::combine(System.SByte,MyVector)] Because the method might be a method called through reflection.
 [Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void Service::menu(System.Int32,System.Int32,System.Int32)] Because the method might be a method called through reflection.
 [Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void Service::chat(System.String)] Because the method might be a method called through reflection.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void TabClanIcon::hide()] Because the method might be a method called through reflection.
 [Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] Image mGraphics::blend(Image,System.Single,System.Int32)] Because the method might be a method called through reflection.
 [Info][OPS.OBF][OnAnalyse_Assemblies] Skip Type and Namespace [[Assembly-CSharp] Assets.src.g.ImageSource] Because the type might be a type called through reflection.
 [Info][OPS.OBF][OnAnalyse_Assemblies] Skip Type and Namespace [[Assembly-CSharp] Assets.src.g.Mabu] Because the type might be a type called through reflection.
@@ -293,6 +299,7 @@
 [Info][OPS.OBF][OnAnalyse_Assemblies] [[Assembly-CSharp] Line]  Analyse Type References in Custom Attribute References...
 [Info][OPS.OBF][OnAnalyse_Assemblies] [[Assembly-CSharp] LoginScr]  Analyse Type References in Custom Attribute References...
 [Info][OPS.OBF][OnAnalyse_Assemblies] [[Assembly-CSharp] MagicTree]  Analyse Type References in Custom Attribute References...
+[Info][OPS.OBF][OnAnalyse_Assemblies] [[Assembly-CSharp] Main/<>c__DisplayClass57_0]  Analyse Type References in Custom Attribute References...
 [Info][OPS.OBF][OnAnalyse_Assemblies] [[Assembly-CSharp] Main]  Analyse Type References in Custom Attribute References...
 [Info][OPS.OBF][OnAnalyse_Assemblies] [[Assembly-CSharp] MainImage]  Analyse Type References in Custom Attribute References...
 [Info][OPS.OBF][OnAnalyse_Assemblies] [[Assembly-CSharp] MapTemplate]  Analyse Type References in Custom Attribute References...
@@ -516,7 +523,9 @@
 [Info][OPS.OBF][OnAnalyse_Assemblies] Skip Full Type [[Assembly-CSharp] Line] Because of the type skipping settings.
 [Info][OPS.OBF][OnAnalyse_Assemblies] Skip Full Type [[Assembly-CSharp] LoginScr] Because of the type skipping settings.
 [Info][OPS.OBF][OnAnalyse_Assemblies] Skip Full Type [[Assembly-CSharp] MagicTree] Because of the type skipping settings.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Full Type [[Assembly-CSharp] Main/<>c__DisplayClass57_0] Because of the type skipping settings.
 [Info][OPS.OBF][OnAnalyse_Assemblies] Skip Full Type [[Assembly-CSharp] Main] Because of the type skipping settings.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Full Type [[Assembly-CSharp] Main/<>c__DisplayClass57_0] Because of the type skipping settings.
 [Info][OPS.OBF][OnAnalyse_Assemblies] Skip Full Type [[Assembly-CSharp] MainImage] Because of the type skipping settings.
 [Info][OPS.OBF][OnAnalyse_Assemblies] Skip Full Type [[Assembly-CSharp] MapTemplate] Because of the type skipping settings.
 [Info][OPS.OBF][OnAnalyse_Assemblies] Skip Full Type [[Assembly-CSharp] Math] Because of the type skipping settings.
@@ -756,6 +765,7 @@
 [Info][OPS.OBF][OnAnalyse_Assemblies] Skip Types Namespace [[Assembly-CSharp] Line] Obfuscator Free is used.
 [Info][OPS.OBF][OnAnalyse_Assemblies] Skip Types Namespace [[Assembly-CSharp] LoginScr] Obfuscator Free is used.
 [Info][OPS.OBF][OnAnalyse_Assemblies] Skip Types Namespace [[Assembly-CSharp] MagicTree] Obfuscator Free is used.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Types Namespace [[Assembly-CSharp] Main/<>c__DisplayClass57_0] Obfuscator Free is used.
 [Info][OPS.OBF][OnAnalyse_Assemblies] Skip Types Namespace [[Assembly-CSharp] Main] Obfuscator Free is used.
 [Info][OPS.OBF][OnAnalyse_Assemblies] Skip Types Namespace [[Assembly-CSharp] MainImage] Obfuscator Free is used.
 [Info][OPS.OBF][OnAnalyse_Assemblies] Skip Types Namespace [[Assembly-CSharp] MapTemplate] Obfuscator Free is used.
@@ -982,6 +992,7 @@
 [Info][OPS.OBF][OnAnalyse_Assemblies] [[Assembly-CSharp] Line]  Analyse Type References in Custom Attribute References...
 [Info][OPS.OBF][OnAnalyse_Assemblies] [[Assembly-CSharp] LoginScr]  Analyse Type References in Custom Attribute References...
 [Info][OPS.OBF][OnAnalyse_Assemblies] [[Assembly-CSharp] MagicTree]  Analyse Type References in Custom Attribute References...
+[Info][OPS.OBF][OnAnalyse_Assemblies] [[Assembly-CSharp] Main/<>c__DisplayClass57_0]  Analyse Type References in Custom Attribute References...
 [Info][OPS.OBF][OnAnalyse_Assemblies] [[Assembly-CSharp] Main]  Analyse Type References in Custom Attribute References...
 [Info][OPS.OBF][OnAnalyse_Assemblies] [[Assembly-CSharp] MainImage]  Analyse Type References in Custom Attribute References...
 [Info][OPS.OBF][OnAnalyse_Assemblies] [[Assembly-CSharp] MapTemplate]  Analyse Type References in Custom Attribute References...
@@ -1274,7 +1285,9 @@
 [Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void LoginScr::.cctor()] Because of compatibility component: .Net Framework - Compatibility : Is Special.
 [Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void MagicTree::.ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Because of compatibility component: .Net Framework - Compatibility : Is Special.
 [Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void MagicTree::.cctor()] Because of compatibility component: .Net Framework - Compatibility : Is Special.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void Main/<>c__DisplayClass57_0::.ctor()] Because of compatibility component: .Net Framework - Compatibility : Is Special.
 [Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void Main::Start()] Because of compatibility component: Unity - Compatibility : Is MonoBehaviour Method.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void Main::OnApplicationFocus(System.Boolean)] Because of compatibility component: Unity - Compatibility : Is MonoBehaviour Method.
 [Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void Main::OnGUI()] Because of compatibility component: Unity - Compatibility : Is MonoBehaviour Method.
 [Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void Main::FixedUpdate()] Because of compatibility component: Unity - Compatibility : Is MonoBehaviour Method.
 [Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void Main::OnApplicationQuit()] Because of compatibility component: Unity - Compatibility : Is MonoBehaviour Method.

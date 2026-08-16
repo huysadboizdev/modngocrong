@@ -3,12 +3,15 @@
 # Loại trừ các thư mục và file không cần thiết
 Temp/
 Library/
+Logs/
+UserSettings/
+.utmp/
 .vscode/
 *.sln
 *.csproj
 *.htm
 Build/
-Library/
+Builds/
 ProjectSettings/
 *.zip
 *.rar
